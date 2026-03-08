@@ -71,7 +71,10 @@ padding:20px;
 text-align:center;
 margin-top:40px;
 }
-
+img{
+    max-width:100%;
+    height:auto;
+}
 .profile-img{
     width:120px !important;
     height:120px !important;
