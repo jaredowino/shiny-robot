@@ -16,7 +16,20 @@ margin:15px;
 text-decoration:none;
 font-weight:bold;
 }
+.contact-links a{
+display:inline-block;
+background:#25D366;
+color:white;
+padding:12px 20px;
+margin:10px;
+border-radius:25px;
+text-decoration:none;
+font-weight:bold;
+}
 
+.contact-links a:last-child{
+background:#007BFF;
+}
 .hero{
 text-align:center;
 padding:80px;
