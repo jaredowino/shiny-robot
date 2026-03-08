@@ -88,13 +88,13 @@ margin-top:40px;
     object-fit: cover;
   }
 
-  #about img{
-    width:120px !important;
-    height:120px !important;
-    max-width:120px !important;
-    max-height:120px !important;
-    object-fit: cover;
-    border-radius:50%;
-    display:block;
-    margin:20px auto;
+  .profile-img {
+  width:120px !important;
+  height:120px !important;
+  max-width:120px !important;
+  max-height:120px !important;
+  object-fit:cover;
+  border-radius:50%;
+  display:block;
+  margin:20px auto;
   }
