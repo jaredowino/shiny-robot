@@ -42,16 +42,20 @@ section {
 }
 
 /* PROFILE IMAGE FORCE FIX */
-.profile-img {
-  width: 120px !important;
-  height: 120px !important;
-  max-width: 120px !important;
-  max-height: 120px !important;
-  object-fit: cover !important;
-  border-radius: 50% !important;
-  display: block !important;
-  margin: 20px auto !important;
-  border: 3px solid #000;
+.profile-img{
+    width:120px !important;
+    height:120px !important;
+    max-width:120px !important;
+    max-height:120px !important;
+    object-fit:cover !important;
+    border-radius:50% !important;
+    display:block !important;
+    margin:20px auto !important;
+}
+
+section img{
+    width:120px !important;
+    height:120px !important;
 }
 
 .projects {
