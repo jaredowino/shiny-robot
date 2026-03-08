@@ -41,12 +41,15 @@ text-align:center;
 }
 
 .hero img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid white;
+    width: 180px;         /* Sets a fixed width */
+    height: 180px;        /* Sets a fixed height */
+    border-radius: 50%;   /* Makes it a perfect circle */
+    object-fit: cover;    /* Centers your face without stretching */
+    border: 4px solid white; /* Adds a nice professional border */
+    display: block;
+    margin: 0 auto;       /* Centers the circle on the screen */
 }
+
 
 
 .card{
