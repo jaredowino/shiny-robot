@@ -1,4 +1,3 @@
-
 body {
   font-family: Arial;
   margin: 0;
@@ -41,21 +40,13 @@ section {
   text-align: center;
 }
 
-/* PROFILE IMAGE FORCE FIX */
-.profile-img{
-    width:120px !important;
-    height:120px !important;
-    max-width:120px !important;
-    max-height:120px !important;
-    object-fit:cover !important;
-    border-radius:50% !important;
-    display:block !important;
-    margin:20px auto !important;
-}
-
-section img{
-    width:120px !important;
-    height:120px !important;
+.profile-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
 }
 
 .projects {
@@ -97,7 +88,6 @@ footer {
   margin-top: 40px;
 }
 
-/* UNIVERSAL IMAGE SAFETY */
 img {
   max-width: 100%;
   height: auto;
